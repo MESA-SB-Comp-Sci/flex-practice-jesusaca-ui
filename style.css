@@ -112,12 +112,17 @@ on the children, the rest are properties you have used in past challenges
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-direction: column;
 
 }
 
 .c-6-child-1 {
   background-color: lightgrey;
   /* add code below */
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
 
 
 }
@@ -126,6 +131,12 @@ on the children, the rest are properties you have used in past challenges
   background-color: darkgrey;
 
   /* add code below */
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+
+
 }
 
 
@@ -159,6 +170,8 @@ on the children, the rest are properties you have used in past challenges
     one to turn it into a flex container and another to get
     the elements to get into the right direction.
     */
+    display: flex;
+    justify-content: right;
 }
 
 .c-7-header {
